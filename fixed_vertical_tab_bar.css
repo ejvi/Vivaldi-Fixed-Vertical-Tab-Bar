@@ -1,0 +1,28 @@
+#browser .tab-position .tab.active {
+    background-color: var(--colorHighlightBg) !important;
+}
+
+div.separator > hr {
+    border-color: var(--colorHighlightBgDark) !important;
+    background-color: var(--colorHighlightBgDark) !important;
+    opacity: 1 !important;
+}
+
+.SlideBar.SlideBar--FullHeight {
+    width: 190px !important;
+    min-width: 190px !important;
+    max-width: 190px !important;
+    
+    pointer-events: none !important;
+    cursor: default !important;
+    
+    background-color: transparent !important;
+    border: none !important;
+    opacity: 0.3 !important;
+}
+
+#browser.tabs-left #switch,
+#browser.tabs-right #switch {
+    resize: none !important;
+    user-select: none !important;
+}
